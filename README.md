@@ -28,7 +28,7 @@ You entered: 5
 
 You can exit the REPL with CTRL-d, (exit), or (quit)
 ```
-## Tests
+## Test
 `lein test`
 
 
