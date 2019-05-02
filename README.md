@@ -1,9 +1,6 @@
 # Prime number multiplication table
 
 
-## Getting Started
-
-
 ##Installation
 
 ```
@@ -16,10 +13,9 @@ Leiningen, a build tool for Clojure
 ##Running
 ```
 git clone git@github.com:gokulreddy07/prime-number-multiplication-table.git
-cd challenge
+cd prime-number-multiplication-table
 lein trampoline run
-Enter total prime numbers:
-5
+Enter total prime numbers: 5
 You entered: 5
 
 |    |  2 |  3 |  5 |  7 |  11 |

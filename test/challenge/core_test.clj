@@ -2,8 +2,6 @@
   (:require [clojure.test :refer :all]
             [challenge.core :refer :all]))
 
-
-
 (deftest parse-int-test
   (testing "testing string to integer"
     (is (= (parse-int "abc5d") 5))))
