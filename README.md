@@ -1,14 +1,26 @@
 # Prime number multiplication table
 
 
-## TL;DR
+## Getting Started
+
+
+##Installation
+
 ```
-git clone git@github.com:kidpollo/prime-again.git
+The only things you'll need to run the Clojure are:
+JDK (I suggest version 8, but anything 6 or above should work fine)
+Leiningen, a build tool for Clojure
+
+```
+
+##Running
+```
+git clone git@github.com:gokulreddy07/prime-number-multiplication-table.git
 cd challenge
 lein trampoline run
 Enter total prime numbers:
 5
-You entered: >>5<<
+You entered: 5
 
 |    |  2 |  3 |  5 |  7 |  11 |
 |----+----+----+----+----+-----|
@@ -18,6 +30,7 @@ You entered: >>5<<
 |  7 | 14 | 21 | 35 | 49 |  77 |
 | 11 | 22 | 33 | 55 | 77 | 121 |
 
+You can exit the REPL with CTRL-d, (exit), or (quit)
 ```
 ## Tests
 `lein test`

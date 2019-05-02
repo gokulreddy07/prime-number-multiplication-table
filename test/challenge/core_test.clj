@@ -29,10 +29,4 @@
 (deftest multiplication-test
   (testing "testing multiplication"
     (let [p-numbers (n-primenumbers "5")]
-      (is (= (multiplication-table p-numbers) table)))))
-
-
-(deftest main-test
-  (testing "testing main function"
-    (let [p-numbers (n-primenumbers "5")]
-      (is (= (multiplication-table p-numbers) table)))))
+      (is (= (multiplication p-numbers) table)))))
